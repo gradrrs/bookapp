@@ -6,7 +6,7 @@ export default function FavButton(){
 
     return (
         <button onClick={() => setIsFavorite(!isFavorite)} className="cursor-pointer">
-            {isFavorite ? '🤍' : '💗'}
+            {isFavorite ? '💗' : '🤍'}
         </button>
     )
 }
